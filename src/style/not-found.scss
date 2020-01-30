@@ -1,0 +1,16 @@
+.not-found-container {
+    width: 100vw;
+    height: 100vh;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+
+    .title {
+        width: 50%;
+        text-align: center;
+        font-size: 40px;
+        margin-bottom: 30px;
+        color: rgb(213,54,49);
+    }
+}

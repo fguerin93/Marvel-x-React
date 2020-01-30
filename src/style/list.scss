@@ -1,0 +1,50 @@
+.logo-container {
+    width: 100vw;
+    height: 100vh;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+
+    .logo-loading {
+        width: 80%;
+    }
+}
+
+.hero-list-container {
+    width: 100vw;
+    height: 100vh;
+    padding: 30px;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+
+    .title {
+        font-size: 30px;
+        font-weight: bold;
+        margin-top: 30px;
+        color: rgb(213,54,49);
+    }
+
+    .top-container {
+        width: 60%;
+        padding: 30px;
+
+        .list-group-item {
+            text-align: center;
+            font-size: 17px;
+        }
+    }
+
+    .bottom-container {
+        width: 100%;
+        padding: 30px;
+        display: flex;
+        justify-content: center;
+
+        .page-item {
+            p {
+                font-size: 17px;
+            }
+        }
+    }
+}
